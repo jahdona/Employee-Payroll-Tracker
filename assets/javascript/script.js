@@ -8,6 +8,7 @@ let employeeData={
   salary:0
 }
 let employeesArray=[];
+let salaryAverage;
 
 const collectEmployees = function() {
   let response=true;
@@ -25,18 +26,28 @@ return(employeesArray);
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
-  // TODO: Calculate and display the average salary
+    // TODO: Calculate and display the average salary
+let sum=0;
+for(i=0;i<employeesArray.length;i++){
+  const currentemp=employeesArray[i];
+  sum +=currentemp.salary;
+}
+salaryAverage=sum/employeesArray.length;
+console.log(`Salary Average = ${salaryAverage}`);
 }
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  const randomIndex=Math.floor(Math.random()*employeesArray.length);
+  const randomEmployee=employeesArray[randomIndex];
+  console.log(randomEmployee);
 }
 
 /*
   ====================
   STARTER CODE
-  Do not modify any of the code below this line:
+  Do not modify any of the code below this line: 
 */
 
 // Display employee data in an HTML table
