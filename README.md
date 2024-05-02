@@ -1,14 +1,19 @@
 # Employee-Payroll-Tracker
  ## Description
 ```md 
-This Employee Payroll Tracker is a Web application that enables a payroll manager to view and manage employee payroll data. 
-This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript.
+This Employee Payroll Tracker is a Web application that enables 
+a company manager to view and manage employee payroll data. 
+This app will run in the browser and will feature 
+dynamically updated HTML and CSS powered by JavaScript.
 ```
 
 ## Installation
 ```md
-This Web Application will be hosted and will not require any installation. 
-The clients will require to have a digital device that have a browser such as google Chrome, Mozilla firefox and so on.
+This Web Application will be hosted 
+and will not require any installation. 
+The clients will require to have a digital device 
+that have a browser such as google Chrome, 
+Mozilla firefox and so on.
 
 ```
 ## User Story
