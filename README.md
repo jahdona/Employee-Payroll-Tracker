@@ -44,7 +44,3 @@ N/A
 ## License
 
 This website uses the license of MTI
-
-
-
-
