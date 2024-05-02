@@ -44,6 +44,8 @@ The following images show the web application's appearance and functionality:
 
 ![Shows employee information in the console of an employee payroll tracker.](./assets/images/emptrack.png)
 
+## Link of Deployed Application
+ Link: [`Employee Payroll Tracker`](https://jahdona.github.io/Employee-Payroll-Tracker/)
 ## Credits
 
 N/A
